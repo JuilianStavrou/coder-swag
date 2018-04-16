@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD65538B20843199002A32CE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65538A20843199002A32CE /* Product.swift */; };
+		CD65538D2084381A002A32CE /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65538C2084381A002A32CE /* ProductsVC.swift */; };
 		CD7ABFB52080457300932DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7ABFB42080457300932DA7 /* AppDelegate.swift */; };
 		CD7ABFBA2080457300932DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7ABFB82080457300932DA7 /* Main.storyboard */; };
 		CD7ABFBC2080457300932DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7ABFBB2080457300932DA7 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		CD65538A20843199002A32CE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CD65538C2084381A002A32CE /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		CD7ABFB12080457300932DA7 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7ABFB42080457300932DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7ABFB92080457300932DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				CDE98C132080517400A8A59A /* CategoriesVC.swift */,
+				CD65538C2084381A002A32CE /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD65538D2084381A002A32CE /* ProductsVC.swift in Sources */,
 				CDE98C142080517400A8A59A /* CategoriesVC.swift in Sources */,
 				CDE98C192080599800A8A59A /* CategoryCellTableViewCell.swift in Sources */,
 				CD7ABFB52080457300932DA7 /* AppDelegate.swift in Sources */,
