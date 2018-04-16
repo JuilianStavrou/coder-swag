@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD65538B20843199002A32CE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65538A20843199002A32CE /* Product.swift */; };
 		CD7ABFB52080457300932DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7ABFB42080457300932DA7 /* AppDelegate.swift */; };
 		CD7ABFBA2080457300932DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7ABFB82080457300932DA7 /* Main.storyboard */; };
 		CD7ABFBC2080457300932DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7ABFBB2080457300932DA7 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD65538A20843199002A32CE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		CD7ABFB12080457300932DA7 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7ABFB42080457300932DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7ABFB92080457300932DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				CDE98C1A20840DBD00A8A59A /* Category.swift */,
+				CD65538A20843199002A32CE /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				CDE98C2020842D4000A8A59A /* ProductCell.swift in Sources */,
 				CDE98C1B20840DBD00A8A59A /* Category.swift in Sources */,
 				CDE98C1D20840F6C00A8A59A /* DataService.swift in Sources */,
+				CD65538B20843199002A32CE /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
