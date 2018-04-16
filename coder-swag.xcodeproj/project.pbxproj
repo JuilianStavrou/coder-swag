@@ -15,6 +15,7 @@
 		CDE98C192080599800A8A59A /* CategoryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE98C182080599800A8A59A /* CategoryCellTableViewCell.swift */; };
 		CDE98C1B20840DBD00A8A59A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE98C1A20840DBD00A8A59A /* Category.swift */; };
 		CDE98C1D20840F6C00A8A59A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE98C1C20840F6C00A8A59A /* DataService.swift */; };
+		CDE98C2020842D4000A8A59A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE98C1F20842D4000A8A59A /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CDE98C182080599800A8A59A /* CategoryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellTableViewCell.swift; sourceTree = "<group>"; };
 		CDE98C1A20840DBD00A8A59A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		CDE98C1C20840F6C00A8A59A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CDE98C1F20842D4000A8A59A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				CDE98C182080599800A8A59A /* CategoryCellTableViewCell.swift */,
+				CDE98C1F20842D4000A8A59A /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				CDE98C142080517400A8A59A /* CategoriesVC.swift in Sources */,
 				CDE98C192080599800A8A59A /* CategoryCellTableViewCell.swift in Sources */,
 				CD7ABFB52080457300932DA7 /* AppDelegate.swift in Sources */,
+				CDE98C2020842D4000A8A59A /* ProductCell.swift in Sources */,
 				CDE98C1B20840DBD00A8A59A /* Category.swift in Sources */,
 				CDE98C1D20840F6C00A8A59A /* DataService.swift in Sources */,
 			);
